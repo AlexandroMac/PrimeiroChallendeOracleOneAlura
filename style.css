@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightseagreen;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.rodape
+{
+  padding: 20px;
+  width: 40vw;
+  margin: center;
+
+}
+.titulo {
+  padding: 15px;
+  width: 30vw;
+  margin: auto;
+
+}
+
+.box {
+  padding: 30px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: lightgray;
+  border-radius: 0.5em;
+  width: 30vw;
+  height: auto;
+}
+
+.btn {
+  border: 1;
+  color: antiquewhite;
+  font-weight: bold;
+  background-color: royalblue;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 0.5em;
+}
+
+.text-input {
+  border-radius: 1.5em;
+  border: 1px solid rgba(0, 0, 0, 1.5);
+  display: block;
+  padding: 1.5em;
+  width: 100%;
+  height: 80px;
+  text-transform: lowercase
+
+}
